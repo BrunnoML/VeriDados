@@ -86,7 +86,7 @@ Para usar a aplicação localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/brunnoml/VeriDados.git](https://github.com/brunnoml/VeriDados.git)
+    git clone https://github.com/brunnoml/VeriDados.git
     ```
     *(Substitua `brunnoml` pelo seu usuário do GitHub se você for criar o repositório lá primeiro)*
 
