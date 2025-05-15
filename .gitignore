@@ -1,0 +1,38 @@
+# Ambientes Virtuais
+.venv/
+venv/
+ENV/
+env/
+*.pyenv
+.env
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de cache do Streamlit e outros caches
+.streamlit/secrets.toml # Nunca envie seus segredos!
+*.streamlit # Cache de uploads, etc. (embora o secrets.toml seja o mais crítico)
+
+# Arquivos temporários de banco de dados (se você não quiser nem o padrão no gitignore)
+temp_*.db 
+# *.db # Se você NUNCA quiser versionar nenhum arquivo .db (cuidado se algum .db for parte do projeto)
+
+# Arquivos de IDE e sistema operacional
+.vscode/ # Configurações do VSCode (exceto se você quiser compartilhar configurações específicas do projeto)
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Arquivos de build/distribuição (se aplicável no futuro)
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração local (se houver)
+config.local.toml
+local_settings.py
