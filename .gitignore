@@ -13,7 +13,7 @@ __pycache__/
 
 # Arquivos de cache do Streamlit e outros caches
 .streamlit/secrets.toml  
-*.streamlit 
+
 
 # Arquivos temporários de banco de dados (se você não quiser nem o padrão no gitignore)
 temp_*.db 
